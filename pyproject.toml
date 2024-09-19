@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "optimize-crossword"
+version = "0.1.0"
+description = ""
+authors = ["swozny <arpheno@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+packages = [{include = "optimize_crossword"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pulp = "^2.9.0"
+pyyaml = "^6.0.2"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+[flake8]
+max-line-length = 88
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"

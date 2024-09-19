@@ -1,0 +1,13 @@
+
+### **9. Set Up Linters and Formatters**
+
+Configure `flake8`, `black`, and `isort` for code quality.
+
+**Optional**: Create configuration files for each tool if you want to customize their behavior.
+
+- **.flake8**:
+
+  ```ini
+  [flake8]
+  max-line-length = 88
+  extend-ignore = E203, W503

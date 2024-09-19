@@ -1,0 +1,2 @@
+output_mode: print  # or 'http'
+http_url: 'http://example.com/api/crossword'
